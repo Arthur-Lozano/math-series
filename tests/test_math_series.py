@@ -49,12 +49,12 @@ def test_seven_lucas():
 
 
 def test_two_sumseries():
-    actual = series.sum_series(7, 0, 2)
+    actual = series.sum_series(7, 2, 1)
     expected = 29
     assert actual == expected
 
 
 def test_zero_sumseries():
-    actual = series.sum_series(3, 0, 2)
+    actual = series.sum_series(3, 2, 1)
     expected = 4
     assert actual == expected
