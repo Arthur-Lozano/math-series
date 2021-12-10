@@ -33,7 +33,7 @@ def lucas(n):
 
 def sum_series(n, x, y):
     """
-    Calling this function with no (optional) last two parameters will produce numbers from the fibonacci series, Calling it with the optional arguments of 2 and 1 will produce values from the lucas numbers.  Other values for the optional paramters will produce other series.
+    Calling this function with no (optional) last two parameters will produce numbers from the fibonacci series, Calling it with the optional arguments of 2 and 1 will produce values from the lucas numbers.  Other values for the optional paramters will produce other series.The required param wil determine which element in the series to print, and the second two optional params will have default values of 0 and 1 and determines the first two values for the series to be produced.  Calling with no optional params will return Fib because defaults are (0,1) calling it with (2,1) will produce the values from the Lucas function.
     """
     if n < 0:
         return "Sorry please enter valid input"
