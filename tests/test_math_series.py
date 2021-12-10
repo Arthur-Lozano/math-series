@@ -56,5 +56,5 @@ def test_two_sumseries():
 
 def test_zero_sumseries():
     actual = series.sum_series(3, 0, 2)
-    expected = 29
+    expected = 4
     assert actual == expected
