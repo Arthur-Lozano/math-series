@@ -13,4 +13,4 @@ fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
 
 
 ## Change Log
-[Github PR]()
+[Github PR](https://github.com/Arthur-Lozano/math-series/pull/3)
